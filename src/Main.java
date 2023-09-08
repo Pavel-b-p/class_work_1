@@ -18,6 +18,15 @@ public class Main {
 
         System.out.println("среднее: " + sred(num_1, num_2, num_3));
 
+        System.out.println("ЗАДАНИЕ 3");
+        String str = Integer.toString(10);
+        System.out.println("среднее: " + str);
+
+
+        Person pers = new Person();
+        pers.age = 10;
+        pers.name = "LALA";
+
         sc.close();
     }
 
@@ -25,4 +34,6 @@ public class Main {
 
         return ((number_1 + number_2 + number_3)/3);
     }
+
+
 }
